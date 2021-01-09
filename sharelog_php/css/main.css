@@ -201,8 +201,8 @@ header {
 /* 検索結果表示画面 */
 .searchform{
     position: fixed;
-    top: 30%;
-    right: 0;
+    top: 25%;
+    right: 5%;
 }
 #searchmodal {
     display: none;

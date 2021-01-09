@@ -411,9 +411,15 @@ $(function () {
                                         <li>メモ</li>
                                         <li><div id="searchfreetext${key}" class="searchfreetext"></div ></li>
                                         </ul>
-                                    <ul>
-                                        <i class="fas fa-heart fa-2x favorite_icon" id="searche_favorite_icon${key}"></i>
-                                    </ul>
+                                    <div class="icons">
+                                        <i class="fas fa-heart fa-2x favorite_icon" id=favorite_icon${key}></i>
+                                        <i class="far fa-comment-dots fa-2x post_comment"></i>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <div class="commentarea"></div>
+                                    <input type="text" class="commentinput" placeholder="コメントする">
+                                    <i class="fas fa-paper-plane send"></i>
                                 </div>
                             </article>
                         `;

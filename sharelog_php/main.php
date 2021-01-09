@@ -1,6 +1,8 @@
 <?php
 session_start();
-
+if(!isset($_SESSION['uid'])){
+    header('Location:index.php');
+  }
 //ユーザー情報取得
 $uid = $_SESSION["uid"];
 // var_dump($uid);
