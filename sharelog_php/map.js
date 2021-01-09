@@ -18,7 +18,7 @@ $(function () {
         }).then(
             function (data) {
                 const responsPosi = JSON.parse(data);
-                console.log(responsPosi);
+                // console.log(responsPosi);
                 const mapDataArray = [];
                 responsPosi.forEach(function (value) {
                     const mapDataArrayTag = {
@@ -30,7 +30,7 @@ $(function () {
                     };
                     mapDataArray.push(mapDataArrayTag);
                 });
-                console.log(mapDataArray);
+                // console.log(mapDataArray);
                 // 現在地取得処理
                 // 現在地を取得するときのオプション
                 const option = {
